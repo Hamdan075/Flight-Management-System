@@ -1,6 +1,5 @@
 #include "Passenger.h"
 
-// Constructor for Passenger node
 Passenger::Passenger(int id, string pname, int fNum, int r, int c) {
     passengerID = id;
     name = pname;
@@ -10,12 +9,10 @@ Passenger::Passenger(int id, string pname, int fNum, int r, int c) {
     next = NULL;
 }
 
-// Constructor for Passenger list
 PassengerList::PassengerList() {
     head = NULL;
 }
 
-// Function to add a passenger
 void PassengerList::addPassenger(int id, string name, int flightNumber, int row, int col) {
     Passenger* newPassenger = new Passenger(id, name, flightNumber, row, col);
     newPassenger->next = head;
@@ -23,7 +20,6 @@ void PassengerList::addPassenger(int id, string name, int flightNumber, int row,
     cout << "Passenger added successfully!\n";
 }
 
-// Function to display all passengers
 void PassengerList::displayPassengers() {
     if (head == NULL) {
         cout << "No passengers booked yet!\n";
