@@ -10,7 +10,7 @@ public:
     string name;
     int flightNumber;
     int row, col;
-    Passenger* next; // Pointer for linked list
+    Passenger* next; 
 
     Passenger(int id, string pname, int fNum, int r, int c);
 };
