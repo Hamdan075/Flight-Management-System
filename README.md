@@ -62,5 +62,5 @@ A Data Structures project built in **C++** using **Dev C++**, simulating a basic
 
 ## Project Status
 
-✅ 40–50% Completed  
-🔜 Sorting, Search, and Seat Edit features under development
+- 40–50% Completed  
+- Sorting, Search, and Seat Edit features under development
