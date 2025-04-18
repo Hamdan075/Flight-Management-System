@@ -8,12 +8,12 @@ public:
     int flightNumber;
     string destination;
     string departureTime;
-    bool availableSeats[10][4]; // 10 rows, 4 seats per row (O = Open, X = Booked)
+    bool availableSeats[10][4];
 
-    Flight(int num, string dest, string time); // Constructor
-    void displayFlightDetails(); // Display flight details
-    void displaySeats(); // Show seat availability
-    bool bookSeat(int row, int col); // Book a seat
+    Flight(int num, string dest, string time);
+    void displayFlightDetails(); 
+    void displaySeats(); 
+    bool bookSeat(int row, int col); 
 };
 
 #endif
